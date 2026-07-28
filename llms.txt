@@ -1,0 +1,129 @@
+# Md Sabbir Ahmed Khan (Sabbir Khan, "Rey")
+
+> Senior Android Engineer, product builder and startup CTO with 12+ years of
+> production experience. Kotlin, Jetpack Compose and Kotlin Multiplatform
+> specialist. Available worldwide — remote or relocation, working GMT+8.
+> Three ways to engage: hire him for a senior/staff/lead Android role, hire him
+> to build a product, or partner with him as your equity CTO.
+
+Contact: rey.sabbir@gmail.com (the only public email address).
+Website: https://reysabbir.com
+CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
+
+## Who he is
+
+- 12+ years shipping production Android applications, end to end.
+- Founder of Power GP BD (2012–2018): 100+ Android apps shipped, two Facebook
+  Startup Program awards. One app, Theatre, passed 500,000 Play Store downloads
+  (it is no longer listed on the Play Store).
+- Lead Software Engineer II at Samsung R&D (2019–2022): Samsung Health, Wear OS
+  companions syncing over BLE to Tizen watches, and feature work in the
+  SmartThings iOS app.
+- Led Android at Plentina (2022), a US fintech running Buy-Now-Pay-Later in the
+  Philippines and Vietnam.
+- Currently at Avetics Global (2022–present), owning the ground-up rewrite of a
+  mission-critical DJI drone-control platform now flying in production.
+- Selected by Google as a mentor for the Exchange with Google Developers pilot
+  program (2021–2023); has trained 100+ developers across South and Southeast
+  Asia, plus university and corporate teams.
+- B.Sc. in Computer Science & Engineering, Ahsanullah University of Science and
+  Technology.
+- Languages: Bengali (native), English (professional).
+
+## What he can be hired for
+
+- **Senior / staff / lead Android engineering roles** — worldwide, remote or
+  relocation. See https://reysabbir.com/projects/ and https://reysabbir.com/qa/.
+- **Client product development** — you bring the idea, he designs, architects
+  and ships it. See https://reysabbir.com/how-i-work/.
+- **Equity CTO / technical co-founder** — for non-technical founders with no
+  funding yet: he takes the entire technical side of the company under
+  contract, builds the MVP, and is compensated with a percentage plus company
+  ownership when the round closes. See https://reysabbir.com/partner/.
+
+## Core skills
+
+Kotlin · Jetpack Compose · Kotlin Multiplatform (KMM) · Wear OS · multi-module
+clean architecture · MVVM and MVI · Kotlin Coroutines and Flow · Hilt · Ktor ·
+Room · DJI Mobile SDK · real-time video and TCP socket infrastructure ·
+Firebase · payment gateway integration · Google Play release engineering ·
+AI-assisted development with coding agents connected over MCP.
+
+## Case studies
+
+- **DJI Drone-Control Platform** (Avetics Global, Dec 2022 – Present): Avetics builds enterprise UAV solutions for inspection, surveillance and infrastructure monitoring. Its flagship Android app — the pilot’s remote control for DJI drones — needed a ground-up rewrite: real-time camera feeds, autonomous flight operations, and zero tolerance for failure while an aircraft is in the sky.
+  Role: Senior Android Engineer. I owned the full architectural rewrite from scratch and set the engineering standards for the 6-person Android team.
+  https://reysabbir.com/projects/#avetics
+- **V-Assist — Precision Drone Operations** (Volarious, Apr 2024 – Present): V-Assist is a production app for drone-assisted line-status monitoring. Its headline premium feature: the drone scans a QR code from the air with its camera, tracks it while flying, and lands precisely on top of it. The feature was already marketed — and the release date was fixed.
+  Role: I owned the feature end-to-end on the Android-based DJI remote control, from investigation to shipped code.
+  https://reysabbir.com/projects/#v-assist
+- **Samsung Health & WearOS** (Samsung R&D Institute, Oct 2019 – Feb 2022 · Dhaka): Samsung’s consumer health ecosystem spans phones, wearables and servers. Health data has to stay consistent across all three — including watches running a completely different OS (Tizen).
+  Role: Lead Software Engineer II. I built health-tracking Android applications and their WearOS companions inside Samsung’s consumer wellness product line, and contributed features to the SmartThings iOS app.
+  https://reysabbir.com/projects/#samsung
+- **Plentina — Buy Now, Pay Later** (GrowFolio (formerly Plentina), Feb 2022 – Nov 2022 · Remote (US)): A US fintech startup expanding BNPL credit access across the Philippines and Vietnam needed its Android app to move fast in two markets — with payment flows that simply cannot fail.
+  Role: Led Android development of the Plentina BNPL app.
+  https://reysabbir.com/projects/#plentina
+
+## Public projects
+
+- **Football Predictor 2026** — The bracket engine for FIFA’s new 48-team World Cup. FIFA’s 2026 format is new and genuinely hard: 48 teams, 12 groups, and a Round of 32 where third-placed qualifiers depend on results across every other group. I designed an engine that evaluates 450+ valid bracket combinations and recalculates the entire knockout tree in real time as you fill in results — following the official FIFA regulations to the letter. What takes analysts spreadsheets, the app does instantly, 100% offline.
+  Google Play: https://play.google.com/store/apps/details?id=xyz.androidrey.predictor
+- **GitHub Client** — The “how I write code” exhibit — read the source. An open-source Android app I keep public for one reason: so you can see exactly how I structure production code. Multi-module clean architecture (app / features / common / network / storage / theme), unidirectional state, offline support, and real tests — not a toy repo.
+  Source on GitHub: https://github.com/sabbirreyjohn/Github-Client · YouTube demo: https://www.youtube.com/watch?v=pzxTVq5kKnE
+
+## Equity-CTO engagements
+
+- **Study Quran** (Live on Google Play · Pre-seed, currently fundraising): As equity CTO, I built the startup’s complete Android product in two months — working in my spare time. Google sign-in, a teacher marketplace, live class scheduling, free trials and secure payments, integrated against the founding team’s backend APIs alongside their admin panel. One senior engineer, zero to Play Store, while the founders focused on the raise.
+- **E-commerce startup** (MVP stage): Full mobile MVP for an early-stage e-commerce venture — product, architecture and delivery handled end-to-end under the same partnership model.
+- **Language-learning app** (MVP stage): A gamified education product in the Duolingo mold. I own the technical build while the founder validates the market.
+
+## Answers to the questions he is usually asked
+
+### Walk me through a hard problem you solved recently.
+
+On V-Assist, I owned a premium feature the company had already marketed: the drone scans a QR code from the air, tracks it in flight, and lands precisely on top of it — all driven from the Android-based DJI remote control.
+
+Close to release, it was failing. At high image quality, QR scanning lagged behind the live feed, so the drone couldn’t follow the code in time to land. Most people would have dropped the image quality and shipped. Instead I debugged the pipeline line by line and found the real bottleneck: the video codec and rendering path, not the detection.
+
+Working from the codec documentation, I rebalanced decoding and rendering so the feed kept its quality while scanning ran in real time. The feature shipped on schedule, the drone lands on the mark without crashing, and it’s live in production today. That’s my pattern: find the actual cause, don’t trade away the product.
+
+### What work are you proudest of?
+
+The one closest to my heart is Theatre, a multimedia app from my Power GP BD years that crossed 500,000 downloads on the Play Store (it’s no longer live). Half a million people choosing something you built — that feeling never gets old.
+
+The most recent one is Football Predictor 2026. FIFA’s new 48-team format is algorithmically nasty: the Round of 32 depends on third-place results across all 12 groups, with 450+ valid bracket combinations. I built an engine that resolves the whole knockout tree in real time, by the letter of the FIFA regulations. It turned something that confuses everyone into something anyone can play with.
+
+### Why should we hire you — or build with you?
+
+Because I’m a bridge. I understand non-technical people — clients, founders, stakeholders — and translate what they actually want into technical decisions. Twelve-plus years of shipping end to end means I don’t just write code; I architect, build, release and maintain.
+
+Two more things I bring everywhere: I automate redundant work instead of tolerating it, and I stay calm under critical deadline pressure — finding the smart solution rather than the heroic all-nighter. Ask my last three teams about release week.
+
+### You use AI heavily. How do you keep the engineering rigorous?
+
+Simple rule: I decide, AI executes. Architecture, tech stack and library choices are mine. Coding agents accelerate the implementation — but I track exactly what they’re using, steer them away from the wrong library toward the right one, and shape the solution so it stays future-proof: fewer bugs, less repair work later.
+
+I keep myself current with cutting-edge tooling precisely so I can direct it. The agents work to my decisions, not the other way around. Every line that ships is a line I’ve reviewed and can defend.
+
+### What are you looking for next?
+
+Three doors are open. First, senior/staff/lead Android roles — remote, or on-site anywhere in the world; I’m ready to relocate for the right team. Second, product development for clients: you bring the idea, I build it. Third, equity-CTO partnerships: I take over the entire technical side of an early-stage startup for a percentage plus ownership when it raises.
+
+The thread connecting all three is ownership. I do my best work when I’m accountable for outcomes, not just tickets — building products I stand behind, with the freedom to do it right.
+
+## Pages
+
+- [Home](https://reysabbir.com/): overview and the three ways to work with him.
+- [About](https://reysabbir.com/about/): the full twelve-year story and timeline.
+- [Projects](https://reysabbir.com/projects/): case studies and public, installable work.
+- [Partner](https://reysabbir.com/partner/): the equity-CTO model, criteria and live engagements.
+- [How I Work](https://reysabbir.com/how-i-work/): the AI-first, engineer-led delivery pipeline.
+- [Mentorship](https://reysabbir.com/mentorship/): Google-selected training and teaching history.
+- [Q&A](https://reysabbir.com/qa/): interview answers in his own words.
+- [Contact](https://reysabbir.com/contact/): email and profiles.
+
+## Elsewhere
+
+- GitHub: https://github.com/sabbirreyjohn
+- LinkedIn: https://www.linkedin.com/in/sabbir-android-engineer
+- Stack Overflow: https://stackoverflow.com/u/1340537
