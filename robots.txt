@@ -61,4 +61,4 @@ Allow: /
 
 # Plain-text summary for LLM agents: https://reysabbir.com/llms.txt
 
-Sitemap: https://reysabbir.com/sitemap-index.xml
+Sitemap: https://reysabbir.com/sitemap.xml
