@@ -2,7 +2,11 @@
 
 > Senior Android Engineer, product builder and startup CTO with 12+ years of
 > production experience. Kotlin, Jetpack Compose and Kotlin Multiplatform
-> specialist. Available worldwide — remote or relocation, working GMT+8.
+> specialist. An AI-first developer: coding agents connected over MCP write the
+> first drafts, and twelve years of production judgment decides what ships.
+> Android is the specialism, not the ceiling — KMM delivers iOS from the same
+> codebase, and agentic AI extends him to backend, web and release automation.
+> Available worldwide — remote or relocation, working GMT+8.
 > Three ways to engage: hire him for a senior/staff/lead Android role, hire him
 > to build a product, or partner with him as your equity CTO.
 
@@ -16,14 +20,19 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 - Founder of Power GP BD (2012–2018): 100+ Android apps shipped, two Facebook
   Startup Program awards. One app, Theatre, passed 500,000 Play Store downloads
   (it is no longer listed on the Play Store).
+- At Kutumbita (2018–2019): designed and built Kinship.ai single-handedly, from
+  architecture to Play Store release — a real-time workplace assistant putting HR
+  self-service in the hands of garments-industry floor workers over Socket.io and
+  Firebase Cloud Messaging (no longer listed on the Play Store).
 - Lead Software Engineer II at Samsung R&D (2019–2022): Samsung Health, Wear OS
   companions syncing over BLE to Tizen watches, and feature work in the
   SmartThings iOS app.
 - Led Android at Plentina (2022), a US fintech running Buy-Now-Pay-Later in the
   Philippines and Vietnam.
-- At Avetics Global: owned the ground-up rewrite of a mission-critical DJI
-  drone-control platform, now flying in production, and set the architecture
-  standards for a 6-person Android team.
+- At Avetics Global: owned the ground-up rewrite of two production Android apps,
+  Volarious and V-Assist — multi-module architecture, Jetpack Compose, Hilt, and
+  a real-time telemetry layer over custom TCP sockets, integrated with the DJI
+  Mobile SDK — and set the architecture standards for a 6-person Android team.
 - Selected by Google as a mentor for the Exchange with Google Developers pilot
   program (2021–2023); has trained 100+ developers across South and Southeast
   Asia, plus university and corporate teams.
@@ -36,7 +45,10 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 - **Senior / staff / lead Android engineering roles** — worldwide, remote or
   relocation. See https://reysabbir.com/projects/ and https://reysabbir.com/qa/.
 - **Client product development** — you bring the idea, he designs, architects
-  and ships it. See https://reysabbir.com/how-i-work/.
+  and ships it. Not Android-only: Kotlin Multiplatform delivers Android and iOS
+  from one codebase, and agentic AI extends the same engineer to the backend, web
+  and release automation — an all-in-one software solution rather than an app plus
+  four more contractors. See https://reysabbir.com/how-i-work/.
 - **Equity CTO / technical co-founder** — for non-technical founders with no
   funding yet: he takes the entire technical side of the company under
   contract, builds the MVP, and is compensated with a percentage plus company
@@ -44,26 +56,28 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 
 ## Core skills
 
-Kotlin · Jetpack Compose · Kotlin Multiplatform (KMM) · Wear OS · multi-module
-clean architecture · MVVM and MVI · Kotlin Coroutines and Flow · Hilt · Ktor ·
-Room · DJI Mobile SDK · real-time video and TCP socket infrastructure ·
-Firebase · payment gateway integration · Google Play release engineering ·
-AI-assisted development with coding agents connected over MCP.
+Kotlin · Jetpack Compose · Kotlin Multiplatform (KMM) · Compose Multiplatform ·
+cross-platform delivery (Android and iOS from one codebase) · Wear OS ·
+multi-module clean architecture · MVVM and MVI · Kotlin Coroutines and Flow ·
+Hilt · Ktor · Room · Firebase · real-time TCP socket infrastructure and video
+pipelines · DJI Mobile SDK · payment gateway integration · Google Play release
+engineering · AI-first development with agentic coding agents connected over MCP.
 
 ## Case studies
 
-- **DJI Drone-Control Platform** (Avetics Global): Avetics builds enterprise UAV solutions for inspection, surveillance and infrastructure monitoring. Its flagship Android app — the pilot’s remote control for DJI drones — needed a ground-up rewrite: real-time camera feeds, autonomous flight operations, and zero tolerance for failure while an aircraft is in the sky.
-  Role: Senior Android Engineer. I owned the full architectural rewrite from scratch and set the engineering standards for the 6-person Android team.
+- **Volarious & V-Assist — Real-Time Enterprise Android** (Avetics Global): Two Android products for Avetics Global, running side by side on the same rugged tablet: Volarious, the operator’s control app, and V-Assist, the companion for tethered-power operations. Between them it is the brief any serious Android app carries — authentication, a live telemetry dashboard, light and dark themes, device settings, a system overlay, error and recovery states, Play Store releases — with one twist that shapes every decision: the data arriving over the socket is a live aircraft, so late data is useless data.
+  Role: Senior Android Engineer. I owned the ground-up architectural rewrite, built features across both apps, and set the engineering standards the 6-person Android team worked to.
+  V-Assist on Google Play: https://play.google.com/store/apps/details?id=com.volarious.vlinestatus
   https://reysabbir.com/projects/#avetics
-- **V-Assist — Precision Drone Operations** (Volarious): V-Assist is a production app for drone-assisted line-status monitoring. Its headline premium feature: the drone scans a QR code from the air with its camera, tracks it while flying, and lands precisely on top of it. The feature was already marketed — and the release date was fixed.
-  Role: I owned the feature end-to-end on the Android-based DJI remote control, from investigation to shipped code.
-  https://reysabbir.com/projects/#v-assist
-- **Samsung Health & WearOS** (Samsung R&D Institute, Oct 2019 – Feb 2022 · Dhaka): Samsung’s consumer health ecosystem spans phones, wearables and servers. Health data has to stay consistent across all three — including watches running a completely different OS (Tizen).
-  Role: Lead Software Engineer II. I built health-tracking Android applications and their WearOS companions inside Samsung’s consumer wellness product line, and contributed features to the SmartThings iOS app.
-  https://reysabbir.com/projects/#samsung
 - **Plentina — Buy Now, Pay Later** (GrowFolio (formerly Plentina), Feb 2022 – Nov 2022 · Remote (US)): A US fintech startup expanding BNPL credit access across the Philippines and Vietnam needed its Android app to move fast in two markets — with payment flows that simply cannot fail.
   Role: Led Android development of the Plentina BNPL app.
   https://reysabbir.com/projects/#plentina
+- **Samsung Health & WearOS** (Samsung R&D Institute, Oct 2019 – Feb 2022 · Dhaka): Samsung’s consumer health ecosystem spans phones, wearables and servers. Health data has to stay consistent across all three — including watches running a completely different OS (Tizen).
+  Role: Lead Software Engineer II. I built health-tracking Android applications and their WearOS companions inside Samsung’s consumer wellness product line, and contributed features to the SmartThings iOS app.
+  https://reysabbir.com/projects/#samsung
+- **Kinship.ai — Workplace Assistant for the Factory Floor** (Kutumbita, 2018 – 2019): Bangladesh’s garments industry employs hundreds of thousands of floor workers whose only route to HR is a queue and a paper form. Kinship.ai replaced it with a chat thread: ask the assistant a question, report a broken machine with a photo, apply for leave, check salary or attendance — in the moment, on the cheap Android phone already in their pocket.
+  Role: I designed and built the Android app entirely on my own — architecture, implementation and Play Store release.
+  https://reysabbir.com/projects/#kinship
 
 ## Public projects
 
@@ -115,7 +129,7 @@ The thread connecting all three is ownership. I do my best work when I’m accou
 ## Pages
 
 - [Home](https://reysabbir.com/): overview and the three ways to work with him.
-- [About](https://reysabbir.com/about/): the full twelve-year story and timeline.
+- [About](https://reysabbir.com/about/): the full twelve-plus-year story and timeline.
 - [Projects](https://reysabbir.com/projects/): case studies and public, installable work.
 - [Partner](https://reysabbir.com/partner/): the equity-CTO model, criteria and live engagements.
 - [How I Work](https://reysabbir.com/how-i-work/): the AI-first, engineer-led delivery pipeline.
