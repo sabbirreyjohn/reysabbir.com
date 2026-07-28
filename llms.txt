@@ -21,8 +21,9 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
   SmartThings iOS app.
 - Led Android at Plentina (2022), a US fintech running Buy-Now-Pay-Later in the
   Philippines and Vietnam.
-- Currently at Avetics Global (2022–present), owning the ground-up rewrite of a
-  mission-critical DJI drone-control platform now flying in production.
+- At Avetics Global: owned the ground-up rewrite of a mission-critical DJI
+  drone-control platform, now flying in production, and set the architecture
+  standards for a 6-person Android team.
 - Selected by Google as a mentor for the Exchange with Google Developers pilot
   program (2021–2023); has trained 100+ developers across South and Southeast
   Asia, plus university and corporate teams.
@@ -51,10 +52,10 @@ AI-assisted development with coding agents connected over MCP.
 
 ## Case studies
 
-- **DJI Drone-Control Platform** (Avetics Global, Dec 2022 – Present): Avetics builds enterprise UAV solutions for inspection, surveillance and infrastructure monitoring. Its flagship Android app — the pilot’s remote control for DJI drones — needed a ground-up rewrite: real-time camera feeds, autonomous flight operations, and zero tolerance for failure while an aircraft is in the sky.
+- **DJI Drone-Control Platform** (Avetics Global): Avetics builds enterprise UAV solutions for inspection, surveillance and infrastructure monitoring. Its flagship Android app — the pilot’s remote control for DJI drones — needed a ground-up rewrite: real-time camera feeds, autonomous flight operations, and zero tolerance for failure while an aircraft is in the sky.
   Role: Senior Android Engineer. I owned the full architectural rewrite from scratch and set the engineering standards for the 6-person Android team.
   https://reysabbir.com/projects/#avetics
-- **V-Assist — Precision Drone Operations** (Volarious, Apr 2024 – Present): V-Assist is a production app for drone-assisted line-status monitoring. Its headline premium feature: the drone scans a QR code from the air with its camera, tracks it while flying, and lands precisely on top of it. The feature was already marketed — and the release date was fixed.
+- **V-Assist — Precision Drone Operations** (Volarious): V-Assist is a production app for drone-assisted line-status monitoring. Its headline premium feature: the drone scans a QR code from the air with its camera, tracks it while flying, and lands precisely on top of it. The feature was already marketed — and the release date was fixed.
   Role: I owned the feature end-to-end on the Android-based DJI remote control, from investigation to shipped code.
   https://reysabbir.com/projects/#v-assist
 - **Samsung Health & WearOS** (Samsung R&D Institute, Oct 2019 – Feb 2022 · Dhaka): Samsung’s consumer health ecosystem spans phones, wearables and servers. Health data has to stay consistent across all three — including watches running a completely different OS (Tizen).
