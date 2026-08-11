@@ -1,14 +1,18 @@
 # Md Sabbir Ahmed Khan (Sabbir Khan, "Rey")
 
-> Senior Android Engineer, product builder and startup CTO with 12+ years of
-> production experience. Kotlin, Jetpack Compose and Kotlin Multiplatform
-> specialist. An AI-first developer: coding agents connected over MCP write the
-> first drafts, and twelve years of production judgment decides what ships.
-> Android is the specialism, not the ceiling — KMM delivers iOS from the same
-> codebase, and agentic AI extends him to backend, web and release automation.
+> Senior software & systems engineer with 12+ years of production experience
+> and Android as his deepest specialization. He builds connected software
+> systems — mobile apps wired to hardware, real-time telemetry over TCP,
+> wearable sync over BLE, video pipelines with on-device computer vision, and
+> offline-first platforms for unreliable networks. Kotlin, Jetpack Compose and
+> Kotlin Multiplatform specialist. An AI-first engineer: coding agents
+> connected over MCP write the first drafts, and twelve years of production
+> judgment decides what ships. Android is the deepest expertise, not the
+> ceiling — KMM delivers iOS from the same codebase, and agentic AI extends
+> him to backend, web and release automation.
 > Available worldwide — remote or relocation, working GMT+8.
-> Three ways to engage: hire him for a senior/staff/lead Android role, hire him
-> to build a product, or partner with him as your equity CTO.
+> Three ways to engage: hire him for a senior/staff/lead engineering role,
+> hire him to build a product, or partner with him as your equity CTO.
 
 Contact: rey.sabbir@gmail.com (the only public email address).
 Website: https://reysabbir.com
@@ -16,7 +20,9 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 
 ## Who he is
 
-- 12+ years shipping production Android applications, end to end.
+- 12+ years shipping production software end to end, deepest in Android — and
+  the systems around the app: real-time telemetry, video pipelines, BLE sync,
+  offline-first platforms.
 - Founder of Power GP BD (2012–2018): 100+ Android apps shipped, two Facebook
   Startup Program awards. One app, Theatre, passed 500,000 Play Store downloads
   (it is no longer listed on the Play Store).
@@ -42,8 +48,9 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 
 ## What he can be hired for
 
-- **Senior / staff / lead Android engineering roles** — worldwide, remote or
-  relocation. See https://reysabbir.com/projects/ and https://reysabbir.com/qa/.
+- **Senior / staff / lead software engineering roles** — Android, mobile and
+  connected systems; worldwide, remote or relocation. See https://reysabbir.com/projects/
+  and https://reysabbir.com/qa/.
 - **Client product development** — you bring the idea, he designs, architects
   and ships it. Not Android-only: Kotlin Multiplatform delivers Android and iOS
   from one codebase, and agentic AI extends the same engineer to the backend, web
@@ -54,18 +61,19 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
   contract, builds the MVP, and is compensated with a percentage plus company
   ownership when the round closes. See https://reysabbir.com/partner/.
 
-## Core skills
+## Core skills, by system layer
 
-Kotlin · Jetpack Compose · Kotlin Multiplatform (KMM) · Compose Multiplatform ·
-cross-platform delivery (Android and iOS from one codebase) · Wear OS ·
-multi-module clean architecture · MVVM and MVI · Kotlin Coroutines and Flow ·
-Hilt · Ktor · Room · Firebase · real-time TCP socket infrastructure and video
-pipelines · DJI Mobile SDK · payment gateway integration · Google Play release
-engineering · AI-first development with agentic coding agents connected over MCP.
+- **Mobile Engineering:** Kotlin · Jetpack Compose · Kotlin Multiplatform · Compose Multiplatform · Wear OS · Hilt · Room · WorkManager · iOS feature work (SmartThings)
+- **System Architecture:** Multi-module clean architecture · MVVM & MVI · Coroutines & Flow · unidirectional state · Offline-first design · Background processing & sync
+- **Connectivity & Protocols:** Custom TCP socket layers · BLE with retry-safe transfer · Socket.io real-time messaging · Firebase Cloud Messaging · Ktor · REST
+- **Hardware & Device Integration:** DJI Mobile SDK · Tethered-drone systems · Tizen wearables · System overlays · Low-end device & network constraints
+- **Media & Computer Vision:** Video codec & rendering pipelines · Live camera feeds · Real-time QR detection & tracking · Latency budgeting
+- **Backend & Cloud:** Firebase Auth & Realtime Database · Payment gateway integration · Backend API integration · Google Play release engineering
+- **AI-Assisted Engineering:** Claude Code · Codex · Gemini CLI · Cursor · MCP-connected workflows (Jira, Figma, GitHub, Firebase) · Agent-driven delivery under senior review
 
 ## Case studies
 
-- **Volarious & V-Assist — Real-Time Enterprise Android** (Avetics Global): Two Android products for Avetics Global, running side by side on the same rugged tablet: Volarious, the operator’s control app, and V-Assist, the companion for tethered-power operations. Between them it is the brief any serious Android app carries — authentication, a live telemetry dashboard, light and dark themes, device settings, a system overlay, error and recovery states, Play Store releases — with one twist that shapes every decision: the data arriving over the socket is a live aircraft, so late data is useless data.
+- **Volarious & V-Assist — Real-Time Aircraft Control from Android** (Avetics Global): Two Android products for Avetics Global, running side by side on the same rugged tablet: Volarious, the operator’s control app, and V-Assist, the companion for tethered-power operations. Between them it is the brief any serious Android app carries — authentication, a live telemetry dashboard, light and dark themes, device settings, a system overlay, error and recovery states, Play Store releases — with one twist that shapes every decision: the data arriving over the socket is a live aircraft, so late data is useless data.
   Role: Senior Android Engineer. I owned the ground-up architectural rewrite, built features across both apps, and set the engineering standards the 6-person Android team worked to.
   V-Assist on Google Play: https://play.google.com/store/apps/details?id=com.volarious.vlinestatus
   https://reysabbir.com/projects/#avetics
@@ -122,7 +130,7 @@ I keep myself current with cutting-edge tooling precisely so I can direct it. Th
 
 ### What are you looking for next?
 
-Three doors are open. First, senior/staff/lead Android roles — remote, or on-site anywhere in the world; I’m ready to relocate for the right team. Second, product development for clients: you bring the idea, I build it. Third, equity-CTO partnerships: I take over the entire technical side of an early-stage startup for a percentage plus ownership when it raises.
+Three doors are open. First, senior/staff/lead engineering roles — Android is my deepest stack, and the work I like best puts it inside a larger system; remote, or on-site anywhere in the world, and I’m ready to relocate for the right team. Second, product development for clients: you bring the idea, I build it. Third, equity-CTO partnerships: I take over the entire technical side of an early-stage startup for a percentage plus ownership when it raises.
 
 The thread connecting all three is ownership. I do my best work when I’m accountable for outcomes, not just tickets — building products I stand behind, with the freedom to do it right.
 
