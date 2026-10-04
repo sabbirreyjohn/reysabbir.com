@@ -12,11 +12,11 @@
 > him to backend, web and release automation.
 > Available worldwide — remote or relocation, working GMT+8.
 > Three ways to engage: hire him for a senior/staff/lead engineering role,
-> hire him to build a product, or partner with him as your equity CTO.
+> hire him to build a product, or engage him as your fractional CTO.
 
 Contact: rey.sabbir@gmail.com (the only public email address).
 Website: https://reysabbir.com
-CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
+CV (PDF): https://reysabbir.com/cv/Khan_Sabbir_CV_Senior_Android_Engineer.pdf
 
 ## Who he is
 
@@ -56,10 +56,11 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
   from one codebase, and agentic AI extends the same engineer to the backend, web
   and release automation — an all-in-one software solution rather than an app plus
   four more contractors. See https://reysabbir.com/how-i-work/.
-- **Equity CTO / technical co-founder** — for non-technical founders with no
-  funding yet: he takes the entire technical side of the company under
-  contract, builds the MVP, and is compensated with a percentage plus company
-  ownership when the round closes. See https://reysabbir.com/partner/.
+- **Fractional CTO / technical co-founder** — for non-technical founders at
+  pre-seed: he takes the entire technical side of the company on a paid
+  contract — a retainer or milestone fees, with equity able to offset part of
+  the fee — and builds the product for iOS and Android from one Compose
+  Multiplatform codebase. See https://reysabbir.com/partner/.
 
 ## Core skills, by system layer
 
@@ -94,11 +95,12 @@ CV (PDF): https://reysabbir.com/cv/Sabbir-Khan-Senior-Android-Engineer.pdf
 - **GitHub Client** — The “how I write code” exhibit — read the source. An open-source Android app I keep public for one reason: so you can see exactly how I structure production code. Multi-module clean architecture (app / features / common / network / storage / theme), unidirectional state, offline support, and real tests — not a toy repo.
   Source on GitHub: https://github.com/sabbirreyjohn/Github-Client · YouTube demo: https://www.youtube.com/watch?v=pzxTVq5kKnE
 
-## Equity-CTO engagements
+## Startup CTO engagements
 
-- **Study Quran** (Live on Google Play · Pre-seed, currently fundraising): As equity CTO, I built the startup’s complete Android product in two months — working in my spare time. Google sign-in, a teacher marketplace, live class scheduling, free trials and secure payments, integrated against the founding team’s backend APIs alongside their admin panel. One senior engineer, zero to Play Store, while the founders focused on the raise.
-- **E-commerce startup** (MVP stage): Full mobile MVP for an early-stage e-commerce venture — product, architecture and delivery handled end-to-end under the same partnership model.
-- **Language-learning app** (MVP stage): A gamified education product in the Duolingo mold. I own the technical build while the founder validates the market.
+- **Diraya Education** (Live on the App Store · Compose Multiplatform): As the startup’s CTO, I built Diraya Education — a “Learn & Share Islam” education app — as one Kotlin codebase with Compose Multiplatform, shipping iOS first with Android to follow from the same code. Scholar-verified Knowledge Bites, Seerah lessons with quizzes, streak tracking and shareable answers; Firebase Auth, Firestore, Crashlytics and Cloud Messaging, with PostHog analytics. Free to users, no paywall.
+- **Study Quran** (Live on Google Play · Pre-seed, raising): As the startup’s CTO, I built its complete Android product in two months — working in my spare time. Google sign-in, a teacher marketplace, live class scheduling, free trials and secure payments, integrated against the founding team’s backend APIs alongside their admin panel. One senior engineer, zero to Play Store, while the founders focused on the raise.
+- **E-commerce startup** (In build): Full mobile product for an early-stage e-commerce venture — product, architecture and delivery handled end-to-end under the same partnership model.
+- **Language-learning app** (In build): A gamified education product in the Duolingo mold. I own the technical build while the founder validates the market.
 
 ## Answers to the questions he is usually asked
 
@@ -130,7 +132,7 @@ I keep myself current with cutting-edge tooling precisely so I can direct it. Th
 
 ### What are you looking for next?
 
-Three doors are open. First, senior/staff/lead engineering roles — Android is my deepest stack, and the work I like best puts it inside a larger system; remote, or on-site anywhere in the world, and I’m ready to relocate for the right team. Second, product development for clients: you bring the idea, I build it. Third, equity-CTO partnerships: I take over the entire technical side of an early-stage startup for a percentage plus ownership when it raises.
+Three doors are open. First, senior/staff/lead engineering roles — Android is my deepest stack, and the work I like best puts it inside a larger system; remote, or on-site anywhere in the world, and I’m ready to relocate for the right team. Second, product development for clients: you bring the idea, I build it. Third, fractional-CTO engagements: I take over the entire technical side of an early-stage startup on a paid contract — equity can offset part of the fee — so a founder gets a CTO at a price a pre-seed budget can carry.
 
 The thread connecting all three is ownership. I do my best work when I’m accountable for outcomes, not just tickets — building products I stand behind, with the freedom to do it right.
 
@@ -139,7 +141,7 @@ The thread connecting all three is ownership. I do my best work when I’m accou
 - [Home](https://reysabbir.com/): overview and the three ways to work with him.
 - [About](https://reysabbir.com/about/): the full twelve-plus-year story and timeline.
 - [Projects](https://reysabbir.com/projects/): case studies and public, installable work.
-- [Partner](https://reysabbir.com/partner/): the equity-CTO model, criteria and live engagements.
+- [Partner](https://reysabbir.com/partner/): the fractional-CTO model, criteria and live engagements.
 - [How I Work](https://reysabbir.com/how-i-work/): the AI-first, engineer-led delivery pipeline.
 - [Mentorship](https://reysabbir.com/mentorship/): Google-selected training and teaching history.
 - [Q&A](https://reysabbir.com/qa/): interview answers in his own words.
