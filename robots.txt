@@ -1,4 +1,4 @@
-# Md Sabbir Ahmed Khan — Senior Software & Systems Engineer · Android & Mobile Tech Lead
+# Md Sabbir Ahmed Khan · Senior Android Engineer
 
 User-agent: *
 Allow: /
